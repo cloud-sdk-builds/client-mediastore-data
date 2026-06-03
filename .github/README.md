@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mediastore-data`](https://www.npmjs.com/package/@aws-sdk/client-mediastore-data/v/3.1058.0).
+[`@aws-sdk/client-mediastore-data`](https://www.npmjs.com/package/@aws-sdk/client-mediastore-data/v/3.1059.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-mediastore-data - [https://cloud-sdk-builds.github.io/?sdk=client-mediastore-data](https://cloud-sdk-builds.github.io/?sdk=client-mediastore-data)
-- @aws-sdk/client-mediastore-data v3.1058.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mediastore-data&version=3.1058.0](https://cloud-sdk-builds.github.io/?sdk=client-mediastore-data&version=3.1058.0)
+- @aws-sdk/client-mediastore-data v3.1059.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mediastore-data&version=3.1059.0](https://cloud-sdk-builds.github.io/?sdk=client-mediastore-data&version=3.1059.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1058.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1059.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-KvXSKtnavdL780sCYYWWDgum3a5TLeXoOFssR8WjEzkLc3Z8xrXmBCg5GY0f7Npk
+sha384-Ee1OrQETuLnPYghRiKg2i/IVQ6DKnWHLPMD3t0Sk/FARWn2C41ksa8cCUtpyLeOA
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mediastore-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1058.0/index.min.mjs"
+            "@aws-sdk/client-mediastore-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1059.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1058.0/index.min.mjs": "sha384-KvXSKtnavdL780sCYYWWDgum3a5TLeXoOFssR8WjEzkLc3Z8xrXmBCg5GY0f7Npk"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1059.0/index.min.mjs": "sha384-Ee1OrQETuLnPYghRiKg2i/IVQ6DKnWHLPMD3t0Sk/FARWn2C41ksa8cCUtpyLeOA"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mediastore-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1058.0/index.min.mjs"
+                        "@aws-sdk/client-mediastore-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1059.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1058.0/index.min.mjs": "sha384-KvXSKtnavdL780sCYYWWDgum3a5TLeXoOFssR8WjEzkLc3Z8xrXmBCg5GY0f7Npk"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore-data@3.1059.0/index.min.mjs": "sha384-Ee1OrQETuLnPYghRiKg2i/IVQ6DKnWHLPMD3t0Sk/FARWn2C41ksa8cCUtpyLeOA"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1058.0`)
+* Always pin to a specific version (`@3.1059.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mediastore-data/blob/refs/tags/3.1058.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mediastore-data/blob/refs/tags/3.1059.0/LICENSE
 ```
 
 ---
